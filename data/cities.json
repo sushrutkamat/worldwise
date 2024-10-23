@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "id": "bbb0",
+      "cityName": "Bengaluru",
+      "country": "India",
+      "date": "2024-10-21T09:51:12.025Z",
+      "emoji": "🇮🇳",
+      "notes": "",
+      "position": {
+        "lat": "12.880285262643852",
+        "lng": "77.63349456849085"
+      }
+    }
+  ]
+}
