@@ -7,7 +7,7 @@ import {
 } from "react";
 
 const CitiesContext = createContext();
-const BASE_URL = `http://localhost:8000`;
+const BASE_URL = `http://localhost:9000`;
 
 const initialState = {
   cities: [],
@@ -162,4 +162,4 @@ function useCities() {
     throw new Error("Cities context was used outside cities provider");
   return context;
 }
-export { CitiesProvider, useCities };
+export { CitiesProvider, useCities, CitiesContext };
